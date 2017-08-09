@@ -1,0 +1,542 @@
+#scf-shortcodes-ui {
+	width: 100%;
+	height: 100%;
+}
+
+#scf-shortcodes-ui-header {
+	background-color: #89C541;
+	padding: 10px;
+	color: white;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+span#header-links {
+	float: right;
+	font-size: 12px;
+	margin-top: 23px;
+	margin-right: 16px;
+}
+
+span#header-links a {
+	text-decoration: none;
+	color: white;
+}
+
+span#scf-close {
+	float: right;
+	font-size: 22px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	margin-top: -6px;
+	margin-right: -5px;
+}
+
+#scf-close a {
+	text-decoration: none;
+	color: white;
+}
+
+#scf-shortcodes-ui-topbar {
+	padding: 10px;
+	padding-bottom: 0;
+	background-color: #CDDE20;
+	color: #999;
+	/*box-shadow: 0px 1px 3px #ccc;*/
+}
+
+#scf-shortcodes-ui-content {
+	width: 100%;
+	overflow: auto;
+	height: 87%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.scf-grid-item {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px solid #FFF;
+}
+
+button.scf-quick-link {
+	width: auto;
+	height: 29px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #89C541;
+	color: white;
+	margin-right: 3px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+button.scf-quick-link:hover {
+	background-color: #1B9D17;
+	color: white;
+}
+
+button.scf-quick-link.is-checked {
+	background-color: white;
+	color: black;
+}
+
+#scf_InsertShortcode img {
+	width: 20px;
+}
+
+.scf_shortcodes {
+	/*list-style: none;*/
+	width: 100%;
+}
+
+.scf_shortcodes:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.scf_shortcodes li {
+	width: 23.5%;
+	height: 50px;
+	margin: 5px;
+	background-color: #eee;
+	text-align: center;
+	display: inline-table;
+	margin-bottom: 0;
+}
+
+li.scf_shortcode-group {
+	width: auto;
+	height: auto;
+	display: block;
+	background: transparent;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+li.scf_shortcode-group ul li {
+	width: 23%;
+}
+
+.scf_shortcode {
+	text-decoration: none;
+	color: #999;
+	float: left;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	line-height: 32px;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #eee;
+}
+
+.scf_shortcode:hover {
+	/*background-color: #999;
+	color: white;*/
+}
+
+.scf_shortcode span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-weight: bold;
+}
+
+.scf_shortcode span.scf-shortcode-desc {
+	font-weight: normal;
+	font-size: 10px;
+	margin-top: 2px;
+	vertical-align: top;
+	color: #ccc;
+}
+
+.scf-shortcode-wrapper {
+    padding: 10px;
+}
+
+.scf-shortcode-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.scf-shortcode-desc {}
+
+.scf-controls-group {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scf-control {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.scf-control-label {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.scf-control-text {
+    width: 100%;
+}
+
+.scf-control-select {
+    width: 100%;
+}
+
+.scf-control.separator {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.scf-control-button {
+	cursor: pointer;
+}
+
+.scf-left {
+	float: left;
+}
+
+.scf-right {
+    float: right;
+}
+
+.optional {
+    font-weight: 100;
+    font-size: 11px;
+    vertical-align: bottom;
+}
+
+.required {
+    font-size: 11px;
+    color: red;
+}
+
+.notes {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.highlight-error {
+	border: 1px solid red !important;
+	background-color: #FCC0CD !important;
+}
+
+.scf-cell {
+	display: table-cell;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.scf-1-4 {width: 25%;}
+.scf-2-4 {width: 50%;}
+.scf-3-4 {width: 75%;}
+.scf-4-4 {width: 100%;}
+
+.scf-1-2 {width: 50%;}
+.scf-2-2 {width: 100%;}
+
+.scf-1-3 {width: 33.33%;}
+.scf-2-3 {width: 66.67%;}
+.scf-3-3 {width: 100%;}
+
+.scf-pad-5 {padding: 5px;}
+.scf-pad-10 {padding: 10px;}
+.scf-pad-15 {padding: 15px;}
+.scf-pad-20 {padding: 20px;}
+
+#scf-pages ul, #scf-pages ol {
+	list-style: inherit;
+	padding: inherit;
+	box-sizing: border-box;
+}
+
+.scf-promo {
+	background-color: white;
+	border-radius: 6px;
+}
+
+#scf-promo-content {
+	width: 100%;
+}
+
+#scf-promo-content img {
+	max-width: 100%;
+}
+
+.scf-notice {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: #FFF;
+	border-left: 4px solid lightgrey;
+	box-shadow: 1px 1px 2px #999;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	font-size: 13px;
+}
+
+.scf-notice.scf-success {
+	border-left-color: #24890d;
+}
+
+.scf-notice.scf-error {
+	border-left-color: #f00;
+}
+
+.scf-notice.scf-alert {
+	border-left-color: #00A8EF;
+}
+
+.scf-notice.scf-warning {
+	border-left-color: #d46f15;
+}
+
+.scf-notice.scf-warning.highlight {
+	border-left-color: #FF9800;
+	background-color: #F44336;
+	color: white;
+}
+
+.scf-notice.scf-warning.highlight.icon:before {
+	font-family: dashicons;
+	content: "\f534";
+	font-size: 18px;
+	color: #FFEB3B;
+	line-height: 1;
+	float: right;
+}
+
+.scf-control-chkbox {
+	float: left;
+	width: 100%;
+	display: block;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.scf-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	border-bottom: 2px solid #999;
+}
+
+.scf-shortcode-help {
+	display: inline-table;
+	flex-direction: column;
+	width: 20%;
+	height: 75px;
+	border: 1px solid #CCC;
+	text-align: center;
+	padding: 5px;
+	background-color: whitesmoke;
+}
+
+.scf-shortcode-help:hover {
+	background-color: white;
+	cursor: default;
+}
+
+.scf-shortcode-help h4 {
+	margin: 0;
+}
+
+/** UI Enhancements **/
+.scf-grid-item a.scf_shortcode {
+	line-height: normal;
+	text-align: left;
+	overflow: hidden;
+	border: none;
+}
+
+.scf-grid-item .scf-shortcode-ui-title {font-weight: bold;}
+
+.scf-grid-item .scf-shortcode-ui-desc {
+	font-weight: normal;
+	font-size: 11px;
+}
+
+/* Posts & Pages Tab */
+.scf-grid-item.posts_pages,
+button.scf-quick-link.posts_pages {
+	background-color: #00BCD4;
+	transition: background-color 1s;
+}
+
+.scf-grid-item.posts_pages a.scf_shortcode {
+	color: #B2EBF2;
+}
+
+.scf-grid-item.posts_pages .scf-shortcode-ui-title {
+	color: #E0F7FA;
+}
+
+.scf-grid-item a.scf_shortcode:hover {
+	/* border: 1px solid red; */
+}
+
+.scf-grid-item.posts_pages:hover,
+button.scf-quick-link.posts_pages:hover,
+button.scf-quick-link.posts_pages.is-checked {
+	background-color: #006064;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.posts_pages.is-checked {
+	color: white;
+}
+
+/* Users & Roles Tab */
+.scf-grid-item.users_roles,
+button.scf-quick-link.users_roles {
+	background-color: #8E24AA;
+	transition: background-color 1s;
+	/* border: 1px solid white; */
+}
+
+.scf-grid-item.users_roles a.scf_shortcode {
+	color: #CE93D8;
+}
+
+.scf-grid-item.users_roles .scf-shortcode-ui-title {
+	color: #E1BEE7;
+}
+
+.scf-grid-item.users_roles:hover,
+button.scf-quick-link.users_roles:hover,
+button.scf-quick-link.users_roles.is-checked {
+	background-color: #4A148C;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.users_roles.is-checked {color: white;}
+
+/* Forms Tab */
+.scf-grid-item.forms,
+button.scf-quick-link.forms {
+	background-color: #7E57C2;
+	transition: background-color 1s;
+}
+
+.scf-grid-item.forms:hover,
+button.scf-quick-link.forms:hover,
+button.scf-quick-link.forms.is-checked {
+	background-color: #311B92;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.forms.is-checked {color: white;}
+
+.scf-grid-item.forms a.scf_shortcode {
+	color: #B39DDB;
+}
+
+.scf-grid-item.forms .scf-shortcode-ui-title {
+	color: #D1C4E9;
+}
+
+/* HTML5 Form Elements Tab */
+.scf-grid-item.forms_html5,
+button.scf-quick-link.forms_html5 {
+	background-color: #FFA000;
+	transition: background-color 1s;
+}
+
+.scf-grid-item.forms_html5:hover,
+button.scf-quick-link.forms_html5:hover,
+button.scf-quick-link.forms_html5.is-checked {
+	background-color: #FF6F00;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.forms_html5.is-checked {color: white;}
+
+.scf-grid-item.forms_html5 a.scf_shortcode {
+	color: #FFECB3;
+}
+
+.scf-grid-item.forms_html5 .scf-shortcode-ui-title {
+	color: #FFF8E1;
+}
+
+/* UI & Utility Tab */
+.scf-grid-item.ui_util,
+button.scf-quick-link.ui_util {
+	background-color: #C0CA33;
+	transition: background-color 1s;
+}
+
+.scf-grid-item.ui_util:hover,
+button.scf-quick-link.ui_util:hover,
+button.scf-quick-link.ui_util.is-checked {
+	background-color: #827717;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.ui_util.is-checked {color: white;}
+
+.scf-grid-item.ui_util a.scf_shortcode {
+	color: #E6EE9C;
+}
+
+.scf-grid-item.ui_util .scf-shortcode-ui-title {
+	color: #F0F4C3;
+}
+
+/* Templates Tab */
+.scf-grid-item.templates,
+button.scf-quick-link.templates {
+	background-color: #89C541;
+	transition: background-color 1s;
+}
+
+.scf-grid-item.templates:hover,
+button.scf-quick-link.templates:hover,
+button.scf-quick-link.templates.is-checked {
+	background-color: #43a047;
+	transition: background-color 1s;
+}
+
+button.scf-quick-link.templates.is-checked {color: white;}
+
+.scf-grid-item.templates a.scf_shortcode {
+	color: #FFF;
+}
+
+.scf-grid-item.templates .scf-shortcode-ui-title {
+	color: #FFF;
+}
+
+.scf-quick-link span.dashicons {
+	font-size: 16px;
+	width: auto;
+	height: auto;
+	font-weight: 100;
+}
+
+/** ColorBox CSS Overrides **/
+.scf_cbox #cboxTopLeft{width:0; height:0; background:url(images/controls.png) no-repeat 0 0;}
+.scf_cbox #cboxTopCenter{height:0; background:url(images/border.png) repeat-x top left;}
+.scf_cbox #cboxTopRight{width:0; height:0; background:url(images/controls.png) no-repeat -36px 0;}
+.scf_cbox #cboxBottomLeft{width:0; height:0; background:url(images/controls.png) no-repeat 0 -32px;}
+.scf_cbox #cboxBottomCenter{height:0; background:url(images/border.png) repeat-x bottom left;}
+.scf_cbox #cboxBottomRight{width:0; height:0; background:url(images/controls.png) no-repeat -36px -32px;}
+.scf_cbox #cboxMiddleLeft{width:0; background:url(images/controls.png) repeat-y -175px 0;}
+.scf_cbox #cboxMiddleRight{width:0; background:url(images/controls.png) repeat-y -211px 0;}
+.scf_cbox #cboxLoadedContent {/**overflow: auto!important; padding: 20px;**/}
